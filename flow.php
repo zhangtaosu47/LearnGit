@@ -517,6 +517,7 @@ elseif ($_REQUEST['step'] == 'checkout')
     $smarty->assign('order', $order);
     
 //    var_dump($order);die;				//added by zh.t for test log
+	//added by zh.t for GitHub
 
     /* 计算折扣 */
     if ($flow_type != CART_EXCHANGE_GOODS && $flow_type != CART_GROUP_BUY_GOODS)
